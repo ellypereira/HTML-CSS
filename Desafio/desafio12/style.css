@@ -63,6 +63,10 @@ section.normal {
     color: black;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.imagem{
     background-color: rgba(51, 51, 51, 0.822);
     color: white;
@@ -73,6 +77,10 @@ section.imaggem >p {
     display: inline-block;
     padding: 5px;
     background-color: rgb(0, 0, 0, 0.253);
+}
+
+section#img01{
+    background-image: '../imagem';
 }
 
 footer {
