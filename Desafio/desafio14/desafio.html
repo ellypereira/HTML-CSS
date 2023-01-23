@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio14</title>
     <style>
-        body {
+        body{
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -14,46 +14,36 @@
             border-collapse: collapse;
         }
 
-        caption{
-            font-size: 1.3em;
-            font-weight: bold;
-            padding: 10px;
+        th, td{
+            border: 1px solid rgb(0, 0, 0);
         }
 
-        th, td{
-            border: 1px solid gray;
-            padding: 10px;
-        }
     </style>
 
 </head>
 <body>
-    <thead>
+   <table>
+       <thead>
         <tr>
-            <th>Grupos</th>
-            <th>Nomes</th>
-            <th colspan="3">Filmes</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th rowspan="3" scope="rowgroup">Mulheres</th>
-            <td>Ana Maria Santos</td>
-            <td>Alien</td>
-            <td>Rambo</td>
-            <td>Vingadores</td>
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
         </tr>
         <tr>
-            <td>Beatriz Souza</td>
-            <td>Hulk</td>
-            <td>Inception</td>
-            <td>Batman</td>
+            <th scope="col">Notas 1</th>
+            <th scope="col">Notas 2</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <td>Matemática</td>
         </tr>
         <tr>
-            <td>Cláudia Nelo</td>
-            <td>Oblivon</td>
-            <td>Matrix</td>
-            <td>Big Hero</td>
+            <td>Física</td>
         </tr>
+       </tbody>
+   </table>
 </body>
 </html>
