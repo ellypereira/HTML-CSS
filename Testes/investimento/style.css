@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(wall.jpg);
+}
+
+header{
+    background-color: #585217d0;
+    color: #fff;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: center;
+}
